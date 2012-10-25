@@ -22,7 +22,7 @@ $css = new Yui\CssCompressorFilter(__DIR__ . '/vendor/yui/yuicompressor/build/yu
 $js = new Yui\JsCompressorFilter(__DIR__ . '/vendor/yui/yuicompressor/build/yuicompressor-2.4.7.jar');
 
 
-$am->set('jqueryjs', new FileAsset(__DIR__ . '/lib/jquery-1.8.2.min.js'));
+$am->set('jqueryjs', new FileAsset(__DIR__ . '/vendor/jquery/jquery-compiled/jquery-1.8.2.min.js'));
 
 $dir = __DIR__ . '/vendor/jquery/jquery-ui/ui';
 $am->set('uicorejs', new AssetCollection(array(

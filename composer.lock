@@ -1,6 +1,18 @@
 {
-    "hash": "d7aa16d3e9af93bddc4076dcda789cef",
+    "hash": "b5a35d10b7652a78fe3b8560588b1567",
     "packages": [
+        {
+            "name": "jquery/jquery-compiled",
+            "version": "1.8.2",
+            "dist": {
+                "type": "file",
+                "url": "http://code.jquery.com/jquery-1.8.2.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "installation-source": "dist"
+        },
         {
             "name": "jquery/jquery-ui",
             "version": "1.9.1",
@@ -91,55 +103,6 @@
             ],
             "description": "lessphp is a compiler for LESS written in PHP.",
             "homepage": "http://leafo.net/lessphp/"
-        },
-        {
-            "name": "twig/twig",
-            "version": "v1.10.3",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/fabpot/Twig.git",
-                "reference": "v1.10.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/fabpot/Twig/zipball/v1.10.3",
-                "reference": "v1.10.3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.4"
-            },
-            "time": "2012-10-19 03:45:49",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.10-dev"
-                }
-            },
-            "installation-source": "dist",
-            "autoload": {
-                "psr-0": {
-                    "Twig_": "lib/"
-                }
-            },
-            "license": [
-                "BSD-3"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com"
-                }
-            ],
-            "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
-            "keywords": [
-                "templating"
-            ]
         },
         {
             "name": "twitter/bootstrap",

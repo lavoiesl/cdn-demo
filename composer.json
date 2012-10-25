@@ -12,11 +12,11 @@
     ,"require": {
         "php": ">=5.3.2"
         ,"kriswallsmith/assetic": "*"
-        ,"twig/twig": "*"
         ,"twitter/bootstrap": "2.0.*"
-        ,"jquery/jquery-ui": "1.9.*"
+        ,"jquery/jquery-ui": ">=1.9"
         ,"leafo/lessphp": "dev-master"
         ,"yui/yuicompressor": "2.*"
+        ,"jquery/jquery-compiled": ">=1.8"
     }
     ,"repositories": [
         {
@@ -49,6 +49,17 @@
                 ,"dist": {
                     "url": "https://github.com/downloads/yui/yuicompressor/yuicompressor-2.4.7.zip",
                     "type": "zip"
+                }
+            }
+        }
+        ,{
+            "type": "package"
+            ,"package": {
+                "version": "1.8.2"
+                ,"name": "jquery/jquery-compiled"
+                ,"dist": {
+                    "url": "http://code.jquery.com/jquery-1.8.2.min.js",
+                    "type": "file"
                 }
             }
         }
