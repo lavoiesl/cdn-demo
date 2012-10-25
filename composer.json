@@ -1,0 +1,56 @@
+{
+    "name": "lavoiesl/cdn-demo"
+    ,"keywords": ["demo", "cdn"]
+    ,"license": ["MIT", "GPLv2"]
+    ,"authors": [
+        {
+            "name": "Sebastien Lavoie"
+            ,"email": "github@lavoie.sl"
+            ,"homepage": "http://sebastien.lavoie.sl"
+        }
+    ]
+    ,"require": {
+        "php": ">=5.3.2"
+        ,"kriswallsmith/assetic": "*"
+        ,"twig/twig": "*"
+        ,"twitter/bootstrap": "2.0.*"
+        ,"jquery/jquery-ui": "1.9.*"
+        ,"leafo/lessphp": "dev-master"
+        ,"yui/yuicompressor": "2.*"
+    }
+    ,"repositories": [
+        {
+            "type": "package"
+            ,"package": {
+                "version": "2.0.4"
+                ,"name": "twitter/bootstrap"
+                ,"dist": {
+                    "url": "https://github.com/twitter/bootstrap/zipball/v2.0.4",
+                    "type": "zip"
+                }
+            }
+        }
+        ,{
+            "type": "package"
+            ,"package": {
+                "version": "1.9.1"
+                ,"name": "jquery/jquery-ui"
+                ,"dist": {
+                    "url": "https://github.com/jquery/jquery-ui/zipball/1.9.1",
+                    "type": "zip"
+                }
+            }
+        }
+        ,{
+            "type": "package"
+            ,"package": {
+                "version": "2.4.7"
+                ,"name": "yui/yuicompressor"
+                ,"dist": {
+                    "url": "https://github.com/downloads/yui/yuicompressor/yuicompressor-2.4.7.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ]
+}
